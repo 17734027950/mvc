@@ -1,0 +1,19 @@
+{
+    "require": {
+        "noahbuscher/macaw": "dev-master"
+    },
+
+    "config": {
+        "preferred-install": "dist",
+        "secure-http": false
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packagist.phpcomposer.com"
+        },
+        {
+            "packagist": false
+        }
+    ]
+}
